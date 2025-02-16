@@ -17,7 +17,7 @@ This is a simple first-person shooter (FPS) game developed as part of the course
 1. Clone the repository:
 
 ```sh
-git clone [<repository-url>](https://github.com/jasonli2446/Simple-FPS-Game)
+git clone (https://github.com/jasonli2446/Simple-FPS-Game)
 ```
 
 2. Navigate to the project directory:
