@@ -9,7 +9,7 @@ public class GameOverTextController : MonoBehaviour
   private Vector2 _direction;
   private RectTransform _canvasRectTransform;
 
-  private float textWidth = 400f;
+  private float textWidth = 280f;
   private float textHeight = 50f;
 
   void Start()

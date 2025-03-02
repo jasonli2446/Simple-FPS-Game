@@ -24,7 +24,7 @@ public class SceneController : MonoBehaviour
 		while (_enemies.Count < _enemyCount)
 		{
 			GameObject enemy = Instantiate(enemyPrefab) as GameObject;
-			enemy.transform.position = new Vector3(Random.Range(-10, 10), 1, Random.Range(-10, 10));
+			enemy.transform.position = new Vector3(Random.Range(-10, 10), 0, Random.Range(-10, 10));
 			float angle = Random.Range(0, 360);
 			enemy.transform.Rotate(0, angle, 0);
 			_enemies.Add(enemy);

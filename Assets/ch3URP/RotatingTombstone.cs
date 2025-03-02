@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class RotatingTombstone : MonoBehaviour
 {
-    public float rotationSpeed = 10.0f;
+    public float rotationSpeed = 15.0f;
 
     void Update()
     {

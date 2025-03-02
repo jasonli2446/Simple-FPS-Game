@@ -1,0 +1,38 @@
+Walls:
+https://assetstore.unity.com/packages/2d/textures-materials/wood/stylized-wood-textures-213607
+
+Floor:
+https://assetstore.unity.com/packages/2d/textures-materials/nature/grass-flowers-pack-free-138810
+
+Skybox:
+https://assetstore.unity.com/packages/2d/textures-materials/sky/fantasy-skybox-free-18353
+
+Enemy model:
+https://assetstore.unity.com/packages/3d/characters/humanoids/fantasy/giant-monster-model-golem-278960
+
+Tombstone:
+https://assetstore.unity.com/packages/3d/props/exterior/concrete-tombstone-cemetery-pbr-prop-296382
+
+Fireball (rock):
+https://assetstore.unity.com/packages/3d/environments/landscapes/free-boulder-pack-68611
+
+Trees:
+https://assetstore.unity.com/packages/3d/vegetation/trees/free-trees-103208
+
+Rocks:
+https://assetstore.unity.com/packages/3d/props/exterior/rock-package-118182
+
+Particles:
+https://assetstore.unity.com/packages/vfx/particles/particle-pack-127325
+
+Background song:
+https://assetstore.unity.com/packages/audio/music/music-sanctuary-free-piano-solo-296088
+
+Shooting sfx:
+https://assetstore.unity.com/packages/audio/sound-fx/shooting-sound-177096
+
+Falling sfx:
+https://assetstore.unity.com/packages/audio/sound-fx/regular-impact-sounds-sound-effects-278024
+
+Heart:
+https://assetstore.unity.com/packages/tools/gui/simple-heart-health-system-120676

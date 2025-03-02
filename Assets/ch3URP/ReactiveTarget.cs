@@ -4,6 +4,14 @@ using System.Collections;
 public class ReactiveTarget : MonoBehaviour
 {
 	[SerializeField] private GameObject tombstonePrefab;
+	[SerializeField] private GameObject deathParticlesPrefab;
+	[SerializeField] private AudioClip enemyFallSound;
+	private AudioSource audioSource;
+
+	void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
 
 	public void ReactToHit()
 	{
@@ -29,8 +37,14 @@ public class ReactiveTarget : MonoBehaviour
 		}
 
 		Vector3 tombstonePosition = transform.position;
-		tombstonePosition.y -= 1f;
+		tombstonePosition.y -= .3f;
 		GameObject tombstone = Instantiate(tombstonePrefab, tombstonePosition, Quaternion.identity) as GameObject;
+
+		Vector3 particlePosition = transform.position;
+		GameObject particles = Instantiate(deathParticlesPrefab, particlePosition, Quaternion.identity) as GameObject;
+		Destroy(particles, 2.0f);
+
+    audioSource.PlayOneShot(enemyFallSound);
 
 		yield return new WaitForSeconds(1.5f);
 
